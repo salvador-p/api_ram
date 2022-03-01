@@ -1,0 +1,16 @@
+.Details_data{
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid black;
+    float: left;
+    width: 300px;
+    background-color: crimson;
+}
+
+.Details_image{
+    width: 300px;
+}
+
+.Data__row{
+    font-size: medium;
+}

@@ -1,0 +1,18 @@
+.top{
+    background-color: rgb(179, 54, 96);
+}
+
+.title{
+    position: relative;
+    left: 600px;
+}
+
+.name{
+    position: relative;
+    left: 720px;
+}
+
+.background{
+        background-color: grey;
+}
+
