@@ -15,9 +15,10 @@ const DetailCharacter = () => {
             setCharacter(character);
             setOrigin(character.origin);
             setLocation(character.location);
+            console.log(character)
         };
         fetchCharacter();
-    }, []);
+    }, );
 
     return (
         <React.Fragment>

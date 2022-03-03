@@ -18,11 +18,12 @@ const Character = (props) =>{
                         alt={character.name}
                     />
                 </Link>
+                
                 <div className="Character__data">
-                    <h3 className="Character__name">{character.name}</h3>
-                    <p className="Character__status">{character.status}</p>
-                    <p className="Character_species">{character.species}</p>
-                    <small>{character.gender}</small>
+                    <h3 className="Character__name">Name: {character.name}</h3>
+                    <p className="Character__status">Status: {character.status}</p>
+                    <p className="Character_species">Specie: {character.species}</p>
+                    <small>Gender:{character.gender}  </small>
                 </div>
             </div>
         </React.Fragment>

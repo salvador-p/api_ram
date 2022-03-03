@@ -11,7 +11,6 @@ const App = () =>{
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/home' element={<Home/>}/>
         <Route exact path='/character/:id' element={<DetailCharacter/>}/>
-        
       </Routes>
     </Router>
 
@@ -19,3 +18,4 @@ const App = () =>{
 }
 
 export default App;
+

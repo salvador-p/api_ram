@@ -1,4 +1,4 @@
-const URL = "https://rickandmortyapi.com/api/character/?page=10";
+const URL = "https://rickandmortyapi.com/api/character/"
 
 
 
@@ -7,7 +7,17 @@ class Http{
 
     get_characters = async () =>{
         try {
-            const request = await fetch(`${URL}`);
+            const request = await fetch(`${URL}?page=10`);
+            const response = await request.json();
+            return response.results
+            
+        } catch (err){
+            throw Error(err);
+        }
+    }
+    get_character = async (id) =>{
+        try {
+            const request = await fetch(`${URL}${id}`);
             const response = await request.json();
             return response
             
